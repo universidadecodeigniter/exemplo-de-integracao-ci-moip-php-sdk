@@ -7,6 +7,10 @@ Para uma fácil integração, instale a biblioteca suando o composer:
 ```
 composer require moip/moip-sdk-php
 ```
+>Lembre-se de atualizar o config/config.php com o autoload do composer.
+
+>`$config['composer_autoload'] = "./vendor/autoload.php";`
+
 O link oficial no GiuHub é https://github.com/moip/moip-sdk-php.
 
 A documentação oficial está em https://moip.com.br/referencia-api/.
