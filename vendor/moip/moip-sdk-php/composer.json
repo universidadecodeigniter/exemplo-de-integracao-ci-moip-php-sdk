@@ -1,0 +1,46 @@
+{
+    "name": "moip/moip-sdk-php",
+    "description": "Cliente em PHP para integração server-side com APIs Moip v2",
+    "keywords": ["libraries", "moip", "intermediary", "checkout", "marketplace"],
+    "homepage": "http://dev.moip.com.br",
+    "license": "MIT",
+    "type": "libraries",
+    "support": {
+        "issues": "https://github.com/moip/moip-sdk-php/issues",
+        "source": "https://github.com/moip/moip-sdk-php"
+    },
+    "authors": [
+        {
+            "name": "Jean Cesar Garcia",
+            "email": "jeancesargarcia@gmail.com"
+        },
+        {
+            "name": "Joao Batista Neto",
+            "email": "neto.joaobatista@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "rmccue/requests": ">=1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "codacy/coverage": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moip\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Moip\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
