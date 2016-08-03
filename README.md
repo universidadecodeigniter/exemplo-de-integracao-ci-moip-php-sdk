@@ -11,6 +11,9 @@ composer require moip/moip-sdk-php
 
 >`$config['composer_autoload'] = "./vendor/autoload.php";`
 
+
+No arquivo `application/controllers/Welcome.php` está o código usado no exemplo da própria documentação, printando na tela os retornos dos métodos executados para criar um comprador, um pedido e um pagamento.
+
 O link oficial no GiuHub é https://github.com/moip/moip-sdk-php.
 
 A documentação oficial está em https://moip.com.br/referencia-api/.
